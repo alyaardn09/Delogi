@@ -1,0 +1,49 @@
+body {
+            background-color: rgb(72, 72, 255);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 30vh;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .login-box {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            gap: 10px;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        #username, #password {
+            border-radius: 5px;
+            padding: 10px;
+            border: 1px solid #333;
+        }
+
+        #login {
+            background-color: rgb(72, 72, 255);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
